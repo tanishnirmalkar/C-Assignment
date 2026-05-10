@@ -1,7 +1,0 @@
-#include <iostream>
-Using namespace std;
-Int main() 
-{
-string s, t;
-cin>> s>>t; 
-sx

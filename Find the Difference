@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string s, t;
+    cin >> s >> t;
+
+    char ans = 0;
+
+    for (char c : s)
+        ans = ans + c;
+
+    for (char c : t)
+        ans = ans - c;
+
+    cout << ans;
+
+    return 0;
+}
